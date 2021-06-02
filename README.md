@@ -74,6 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Add remote
 git remote add origin https://github.com/christoferson/react-gh-pages.git
-
+git push --set-upstream origin master
+ 
 ### Site
 https://christoferson.github.io/react-gh-pages/

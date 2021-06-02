@@ -4,6 +4,7 @@ import { Route, Switch, Link } from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Unknown from './components/Unknown';
 
 class App extends React.Component {
 	render() {
@@ -22,6 +23,7 @@ class App extends React.Component {
 					<Route exact path="/"><Home /></Route>
 					<Route path="/about"><About /></Route>
 					<Route path="/contact"><Contact /></Route>
+					<Route path="*"><Unknown /></Route>
 				</Switch>
 			</div>
 		);
